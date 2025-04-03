@@ -1,10 +1,12 @@
-import withNextra from 'nextra-theme-docs/config.js'
+import { withNextra } from 'nextra'
 
-const config = withNextra({
+const withConfig = withNextra({
+  theme: 'nextra-theme-docs',
   themeConfig: './theme.config.js',
 })
 
-export default config
+export default withConfig()
+
 
 
 
