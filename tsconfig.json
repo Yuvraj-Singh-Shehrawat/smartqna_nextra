@@ -27,7 +27,7 @@
     "**/*.ts",
     "**/*.tsx",
     "**/*.mdx"
-  ],
+, "theme.config.js"  ],
   "exclude": [
     "node_modules"
   ]
