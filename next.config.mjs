@@ -1,10 +1,9 @@
-import nextra from 'nextra';
+import { withNextra } from 'nextra';
 
-const withNextra = nextra({
+export default withNextra({
   theme: 'nextra-theme-docs',
-  themeConfig: './theme.config.js', // or .js if you renamed it
-});
+  themeConfig: './theme.config.js', // make sure this is a .js or .ts depending on your file
+})();
 
-export default withNextra;
 
   
