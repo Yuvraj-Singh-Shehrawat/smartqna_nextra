@@ -1,9 +1,9 @@
 const config = {
   logo: <span>Smart QnA Docs</span>,
   project: {
-    link: 'https://github.com/your-org/smart-qna-docs',
+    link: 'https://github.com/Yuvraj-Singh-Shehrawat/smartqna_nextra',
   },
-  docsRepositoryBase: 'https://github.com/your-org/smart-qna-docs/blob/main/pages',
+  docsRepositoryBase: 'https://github.com/Yuvraj-Singh-Shehrawat/smartqna_nextra/blob/main/pages',
   footer: {
     text: '© 2025 Smart QnA. All rights reserved.',
   },
