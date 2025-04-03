@@ -1,11 +1,11 @@
-import { withNextra } from 'nextra';
+import withNextra from 'nextra-theme-docs/config.js'
 
 const config = withNextra({
-  theme: 'nextra-theme-docs',
   themeConfig: './theme.config.js',
-});
+})
 
-export default config;
+export default config
+
 
 
 
